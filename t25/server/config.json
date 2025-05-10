@@ -1,0 +1,6 @@
+{
+  "port": <YOUR_t25_PORT>,
+  "channels": [
+    { "name": "default", "key": "password" }
+  ]
+}

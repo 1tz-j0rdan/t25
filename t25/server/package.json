@@ -1,0 +1,25 @@
+{
+  "name": "t25",
+  "version": "1.0.0",
+  "description": "t25 TMA-2 telemetry server",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "node index.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/1tz-j0rdan/t25.git"
+  },
+  "author": "1tz-j0rdan",
+  "bugs": {
+    "url": "https://github.com/1tz-j0rdan/t25/issues"
+  },
+  "homepage": "https://github.com/1tz-j0rdan/t25#readme",
+  "dependencies": {
+    "dateformat": "^5.0.3",
+    "dotenv": "^16.3.1",
+    "socket.io": "^4.7.2",
+    "winston": "^3.10.0",
+    "winston-daily-rotate-file": "^4.7.1"
+  }
+}
